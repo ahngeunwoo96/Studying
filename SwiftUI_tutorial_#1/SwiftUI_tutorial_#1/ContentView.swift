@@ -8,15 +8,48 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //@State : 값의 변화를 감지 -> view에 적용
+    @State
+    private var isActivated: Bool = false
+    
     var body: some View {
-        VStack {
-            MyVstackView()
-            MyVstackView()
-            MyVstackView()
+        NavigationView {
+            VStack {
+                VStack {
+                    MyVstackView()
+                    MyVstackView()
+                    MyVstackView()
+                }
+                .padding(isActivated ? 10.0 : 50.0)
+                .background(isActivated ? Color.yellow : Color.black)
+                
+                
+                .onTapGesture {
+                    print("Vstack이 클릭되었다.")
+                    
+                    // 애니메이션과 함께
+                    withAnimation {
+                    // toggle() true 이면 flase로 false이면 true
+                    self.isActivated.toggle()
+                    }
+                }
+                
+                NavigationLink(destination: MyTextView()) {
+                    Text("내비게이션")
+                        .fontWeight(.heavy)
+                        .font(.system(size:60))
+                        .background(Color.orange)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(30)
+                }
+                .padding(.top, 50)
+            }
+            
+        } // Navigation view
+        
     }
-        .padding(.top, 25.0)
-        .background(Color.yellow)
-    }
+    
 }
 
 struct MyVstackView : View {
@@ -33,6 +66,8 @@ struct MyVstackView : View {
                 .font(.system(size:60))
         }
         .background(Color.red)
+        
+        // 탭 제스처 추가
     }
 }
 

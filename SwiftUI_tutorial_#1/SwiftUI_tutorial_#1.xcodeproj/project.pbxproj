@@ -14,6 +14,7 @@
 		834A394F25236E9500ECCB3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A394E25236E9500ECCB3D /* Preview Assets.xcassets */; };
 		834A395225236E9500ECCB3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834A395025236E9500ECCB3D /* LaunchScreen.storyboard */; };
 		834A395B2523713900ECCB3D /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A395A2523713900ECCB3D /* MyVstackView.swift */; };
+		834A395E252380FF00ECCB3D /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A395D252380FF00ECCB3D /* MyTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		834A395125236E9500ECCB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		834A395325236E9500ECCB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		834A395A2523713900ECCB3D /* MyVstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVstackView.swift; sourceTree = "<group>"; };
+		834A395D252380FF00ECCB3D /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				834A395325236E9500ECCB3D /* Info.plist */,
 				834A394D25236E9500ECCB3D /* Preview Content */,
 				834A395A2523713900ECCB3D /* MyVstackView.swift */,
+				834A395D252380FF00ECCB3D /* MyTextView.swift */,
 			);
 			path = "SwiftUI_tutorial_#1";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				834A394825236E9300ECCB3D /* SceneDelegate.swift in Sources */,
 				834A395B2523713900ECCB3D /* MyVstackView.swift in Sources */,
 				834A394A25236E9300ECCB3D /* ContentView.swift in Sources */,
+				834A395E252380FF00ECCB3D /* MyTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
