@@ -1,5 +1,9 @@
 # 아이폰 앱 개발 공부하기 
-## swift 이용
+## swift UI
 
-### 주요기능
-- xcode 12버전을 사용하여 아이폰 앱 개발을 공부
+### Xcode 12 
+
+SwiftUI_tutorial
+
+SwiftUI_Webview_tutorial 
+
