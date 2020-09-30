@@ -1,7 +1,8 @@
 # 아이폰 앱 개발 공부하기 
-## swift UI
+## 개발 환경
+SwiftUI & Xcode 12
 
-### Xcode 12 
+## 진행 프로젝트 
 
 SwiftUI_tutorial
 
