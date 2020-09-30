@@ -17,11 +17,11 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 VStack {
-                    MyVstackView()
-                    MyVstackView()
-                    MyVstackView()
+                    myVstackView(isActivated: $isActivated)
+                    myVstackView(isActivated: $isActivated)
+                    myVstackView(isActivated: $isActivated)
                 }
-                .padding(isActivated ? 10.0 : 50.0)
+                .padding(isActivated ? 50 : 10)
                 .background(isActivated ? Color.yellow : Color.black)
                 
                 
@@ -35,7 +35,7 @@ struct ContentView: View {
                     }
                 }
                 
-                NavigationLink(destination: MyTextView()) {
+                NavigationLink(destination: MyTextView(isActivated:$isActivated)) {
                     Text("내비게이션")
                         .fontWeight(.heavy)
                         .font(.system(size:60))
@@ -50,25 +50,6 @@ struct ContentView: View {
         
     }
     
-}
-
-struct MyVstackView : View {
-    var body : some View {
-        HStack {
-            Text("1!")
-                .fontWeight(.bold)
-                .font(.system(size:60))
-            Text("2!")
-                .fontWeight(.bold)
-                .font(.system(size:60))
-            Text("3!")
-                .fontWeight(.bold)
-                .font(.system(size:60))
-        }
-        .background(Color.red)
-        
-        // 탭 제스처 추가
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {
