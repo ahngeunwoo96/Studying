@@ -8,3 +8,9 @@ SwiftUI_tutorial
 
 SwiftUI_Webview_tutorial 
 
+SwiftUI_Text_tutorial 
+
+SwiftUI_Image_tutorial
+
+
+
