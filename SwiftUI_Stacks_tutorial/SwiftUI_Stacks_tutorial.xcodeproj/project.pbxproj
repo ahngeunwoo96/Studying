@@ -13,6 +13,9 @@
 		83C61EEF25298AC600C47557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C61EEE25298AC600C47557 /* Assets.xcassets */; };
 		83C61EF225298AC600C47557 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C61EF125298AC600C47557 /* Preview Assets.xcassets */; };
 		83C61EF525298AC600C47557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C61EF325298AC600C47557 /* LaunchScreen.storyboard */; };
+		83FE0A5A252B61C50007B082 /* myVstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE0A59252B61C50007B082 /* myVstack.swift */; };
+		83FE0A5D252B63010007B082 /* myHstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE0A5C252B63010007B082 /* myHstack.swift */; };
+		83FE0A60252B70370007B082 /* myZstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE0A5F252B70370007B082 /* myZstack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		83C61EF125298AC600C47557 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83C61EF425298AC600C47557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83C61EF625298AC600C47557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FE0A59252B61C50007B082 /* myVstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myVstack.swift; sourceTree = "<group>"; };
+		83FE0A5C252B63010007B082 /* myHstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myHstack.swift; sourceTree = "<group>"; };
+		83FE0A5F252B70370007B082 /* myZstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myZstack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				83C61EF325298AC600C47557 /* LaunchScreen.storyboard */,
 				83C61EF625298AC600C47557 /* Info.plist */,
 				83C61EF025298AC600C47557 /* Preview Content */,
+				83FE0A59252B61C50007B082 /* myVstack.swift */,
+				83FE0A5C252B63010007B082 /* myHstack.swift */,
+				83FE0A5F252B70370007B082 /* myZstack.swift */,
 			);
 			path = SwiftUI_Stacks_tutorial;
 			sourceTree = "<group>";
@@ -146,8 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				83C61EE925298AC300C47557 /* AppDelegate.swift in Sources */,
+				83FE0A60252B70370007B082 /* myZstack.swift in Sources */,
 				83C61EEB25298AC300C47557 /* SceneDelegate.swift in Sources */,
 				83C61EED25298AC300C47557 /* ContentView.swift in Sources */,
+				83FE0A5D252B63010007B082 /* myHstack.swift in Sources */,
+				83FE0A5A252B61C50007B082 /* myVstack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
