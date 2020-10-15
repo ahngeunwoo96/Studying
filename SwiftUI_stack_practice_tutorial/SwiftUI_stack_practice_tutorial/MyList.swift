@@ -9,7 +9,10 @@ import SwiftUI
 
 struct MyList : View {
     
-    init() {
+    @Binding var isNavigationBarHidden : Bool
+    
+    init(isNavigationBarHidden: Binding<Bool> = .constant(false)) {
+        
         if #available(iOS 14.0, *){
             
         }else {
@@ -17,6 +20,9 @@ struct MyList : View {
         }
         
         UITableView.appearance().separatorStyle = .none
+        
+        _isNavigationBarHidden = isNavigationBarHidden
+        
     }
 
     var body: some View {
@@ -37,6 +43,8 @@ struct MyList : View {
         List {
             
             Section(header: Text("오늘의 첫번째 할 일.")
+                        .font(.headline)
+                        .foregroundColor(Color.black)
                     ,footer: Text("footer")
             
             ) {
@@ -47,7 +55,9 @@ struct MyList : View {
             }
             .listRowInsets(EdgeInsets.init(.init(top: 10, leading: 10, bottom: 10, trailing: 10)))
             
-            Section(header: Text("오늘의 두번째 할 일.")) {
+            Section(header: Text("오늘의 두번째 할 일.")
+                        .font(.headline)
+                        .foregroundColor(Color.black)) {
                 ForEach(1...3, id: \.self) { itemIndex in
                     //Text("My List\(itemIndex)")
                     MyCard(icon: "gamecontroller.fill", title: "롤 한판하기\(itemIndex)", start: "3 PM", end: "4 PM", bgColor: Color.orange)
@@ -58,6 +68,11 @@ struct MyList : View {
         }
         .listStyle(GroupedListStyle())
         //.listStyle(PlainListStyle()) // list의 기본 스타일
+        .navigationBarTitle("내 목록")
+        //.navigationBarHidden(self.isNavigationBarHidden)
+        .onAppear{
+            self.isNavigationBarHidden = false
+        }
 
         
     }
