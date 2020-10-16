@@ -14,6 +14,8 @@
 		837749EA252DB4E200284E66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837749E9252DB4E200284E66 /* Preview Assets.xcassets */; };
 		837749ED252DB4E200284E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837749EB252DB4E200284E66 /* LaunchScreen.storyboard */; };
 		837749F6252DB54400284E66 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837749F5252DB54400284E66 /* MyProjectCard.swift */; };
+		837A5C732538857D00756B5A /* MyNaviagationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837A5C722538857D00756B5A /* MyNaviagationView.swift */; };
+		837A5C7625393E9F00756B5A /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837A5C7525393E9F00756B5A /* MyProfile.swift */; };
 		837ACBDC252F63440019AAED /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837ACBDB252F63440019AAED /* MyBasicCard.swift */; };
 		83825D8F25306E260089AB44 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83825D8E25306E250089AB44 /* MyCard.swift */; };
 		83825D92253073B60089AB44 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83825D91253073B60089AB44 /* MyList.swift */; };
@@ -29,6 +31,8 @@
 		837749EC252DB4E200284E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		837749EE252DB4E200284E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		837749F5252DB54400284E66 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
+		837A5C722538857D00756B5A /* MyNaviagationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNaviagationView.swift; sourceTree = "<group>"; };
+		837A5C7525393E9F00756B5A /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
 		837ACBDB252F63440019AAED /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 		83825D8E25306E250089AB44 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		83825D91253073B60089AB44 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 				837749E0252DB4DF00284E66 /* AppDelegate.swift */,
 				837749E2252DB4DF00284E66 /* SceneDelegate.swift */,
 				837749E4252DB4DF00284E66 /* ContentView.swift */,
+				837A5C722538857D00756B5A /* MyNaviagationView.swift */,
 				837749E6252DB4E200284E66 /* Assets.xcassets */,
 				837749EB252DB4E200284E66 /* LaunchScreen.storyboard */,
 				837749EE252DB4E200284E66 /* Info.plist */,
@@ -75,6 +80,7 @@
 				83825D91253073B60089AB44 /* MyList.swift */,
 				837ACBDB252F63440019AAED /* MyBasicCard.swift */,
 				83825D8E25306E250089AB44 /* MyCard.swift */,
+				837A5C7525393E9F00756B5A /* MyProfile.swift */,
 			);
 			path = SwiftUI_stack_practice_tutorial;
 			sourceTree = "<group>";
@@ -158,9 +164,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				837749E1252DB4DF00284E66 /* AppDelegate.swift in Sources */,
+				837A5C7625393E9F00756B5A /* MyProfile.swift in Sources */,
 				837ACBDC252F63440019AAED /* MyBasicCard.swift in Sources */,
 				837749F6252DB54400284E66 /* MyProjectCard.swift in Sources */,
 				837749E3252DB4DF00284E66 /* SceneDelegate.swift in Sources */,
+				837A5C732538857D00756B5A /* MyNaviagationView.swift in Sources */,
 				837749E5252DB4DF00284E66 /* ContentView.swift in Sources */,
 				83825D92253073B60089AB44 /* MyList.swift in Sources */,
 				83825D8F25306E260089AB44 /* MyCard.swift in Sources */,
