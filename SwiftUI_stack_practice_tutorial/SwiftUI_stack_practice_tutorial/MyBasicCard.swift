@@ -39,9 +39,9 @@ struct MyBasicCard : View {
         
     }
 }
-
-struct MyBasicCard_Previews: PreviewProvider {
-    static var previews: some View {
-        MyBasicCard()
-    }
-}
+//
+//struct MyBasicCard_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MyBasicCard()
+//    }
+//}

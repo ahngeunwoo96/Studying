@@ -79,10 +79,10 @@ struct MyProfile : View {
     }
 }
 
-
-struct MyProfile_Previews: PreviewProvider {
-    static var previews: some View {
-        MyProfile()
-        
-    }
-}
+//
+//struct MyProfile_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MyProfile()
+//        
+//    }
+//}

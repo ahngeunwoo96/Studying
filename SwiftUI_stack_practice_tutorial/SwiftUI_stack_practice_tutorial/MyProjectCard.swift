@@ -65,9 +65,9 @@ struct MyProjectCard : View {
         
     }
 }
-
-struct MyProjectCard_Previews: PreviewProvider {
-    static var previews: some View {
-        MyProjectCard()
-    }
-}
+//
+//struct MyProjectCard_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MyProjectCard()
+//    }
+//}

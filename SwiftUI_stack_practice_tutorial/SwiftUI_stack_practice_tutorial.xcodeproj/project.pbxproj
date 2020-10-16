@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8346D84D2539959F004FEA59 /* MyCustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D84C2539959F004FEA59 /* MyCustomTabView.swift */; };
 		837749E1252DB4DF00284E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837749E0252DB4DF00284E66 /* AppDelegate.swift */; };
 		837749E3252DB4DF00284E66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837749E2252DB4DF00284E66 /* SceneDelegate.swift */; };
 		837749E5252DB4DF00284E66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837749E4252DB4DF00284E66 /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8346D84C2539959F004FEA59 /* MyCustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabView.swift; sourceTree = "<group>"; };
 		837749DD252DB4DF00284E66 /* SwiftUI_stack_practice_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_stack_practice_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		837749E0252DB4DF00284E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		837749E2252DB4DF00284E66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				83825D8E25306E250089AB44 /* MyCard.swift */,
 				837A5C7525393E9F00756B5A /* MyProfile.swift */,
 				837A5C8225397BA600756B5A /* MyView.swift */,
+				8346D84C2539959F004FEA59 /* MyCustomTabView.swift */,
 			);
 			path = SwiftUI_stack_practice_tutorial;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				837A5C732538857D00756B5A /* MyNaviagationView.swift in Sources */,
 				837749E5252DB4DF00284E66 /* ContentView.swift in Sources */,
 				83825D92253073B60089AB44 /* MyList.swift in Sources */,
+				8346D84D2539959F004FEA59 /* MyCustomTabView.swift in Sources */,
 				83825D8F25306E260089AB44 /* MyCard.swift in Sources */,
 				837A5C8325397BA600756B5A /* MyView.swift in Sources */,
 			);

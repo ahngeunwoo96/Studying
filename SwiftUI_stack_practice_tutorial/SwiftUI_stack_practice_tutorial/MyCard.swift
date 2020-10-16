@@ -46,9 +46,9 @@ struct MyCard : View {
         
     }
 }
-
-struct MyCard_Previews: PreviewProvider {
-    static var previews: some View {
-        MyCard(icon: "book.fill", title: "책 읽기", start: "1 PM", end: "3 PM", bgColor: Color.green)
-    }
-}
+//
+//struct MyCard_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MyCard(icon: "book.fill", title: "책 읽기", start: "1 PM", end: "3 PM", bgColor: Color.green)
+//    }
+//}
