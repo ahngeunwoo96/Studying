@@ -12,5 +12,10 @@ SwiftUI_Text_tutorial
 
 SwiftUI_Image_tutorial
 
+SwiftUI_Stack_tutorial
+
+SwiftUI_Stack_practice_tutoral
+
+SwiftUI_QRCodeScanner_tutorial
 
 
