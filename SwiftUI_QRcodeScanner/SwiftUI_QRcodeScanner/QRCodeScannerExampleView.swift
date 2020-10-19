@@ -12,33 +12,53 @@ struct QRCodeScannerExampleView: View {
     @State var scannedCode: String?
 
     var body: some View {
-        NavigationView {
-            VStack(spacing: 10) {
-                if self.scannedCode != nil {
-                    Text("self.scannedCode : \(self.scannedCode!)")
-                }
-                Button("Scan Code") {
+        ZStack {
+            if self.scannedCode != nil {
+                MyWebView(urlToLoad: self.scannedCode!)
+            } else {
+                MyWebView(urlToLoad: "https://www.naver.com")
+            }
+            
+            VStack {
+                
+                Spacer()
+                
+                Button(action: {
                     self.isPresentingScanner = true
+                }) {
+                    Text("로또번호 확인")
+                        .font(.system(size : 20))
+                        .fontWeight(.bold)
+                        .padding()
+                        .background(Color.yellow)
+                        .cornerRadius(12)
+                        .overlay(RoundedRectangle(cornerRadius: 12)
+                                    .stroke(lineWidth: 5))
+                        
                 }
                 .sheet(isPresented: $isPresentingScanner) {
                     self.scannerSheet
                 }
-                Text("Scan a QR code to begin")
+                Spacer().frame(height : 30)
             }
-
         }
     }
 
     var scannerSheet : some View {
-        CodeScannerView(
-            codeTypes: [.qr],
-            completion: { result in
-                if case let .success(code) = result {
-                    self.scannedCode = code
-                    self.isPresentingScanner = false
+        ZStack {
+            
+            CodeScannerView(
+                codeTypes: [.qr],
+                completion: { result in
+                    if case let .success(code) = result {
+                        self.scannedCode = code
+                        self.isPresentingScanner = false
+                    }
                 }
-            }
-        )
+            )
+            
+            QRCodeGuideLineView()
+        }
     }
 }
 

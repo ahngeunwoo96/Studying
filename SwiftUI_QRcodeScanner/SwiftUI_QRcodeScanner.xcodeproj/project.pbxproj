@@ -16,6 +16,7 @@
 		8346D871253B4265004FEA59 /* QRCodeScannerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D870253B4265004FEA59 /* QRCodeScannerExampleView.swift */; };
 		8346D875253B50D8004FEA59 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D874253B50D8004FEA59 /* MyWebView.swift */; };
 		8346D878253B542E004FEA59 /* CodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D877253B542E004FEA59 /* CodeScannerView.swift */; };
+		83787F1C253D9F1000A93A45 /* QRCodeGuideLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83787F1B253D9F1000A93A45 /* QRCodeGuideLineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8346D870253B4265004FEA59 /* QRCodeScannerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerExampleView.swift; sourceTree = "<group>"; };
 		8346D874253B50D8004FEA59 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		8346D877253B542E004FEA59 /* CodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScannerView.swift; sourceTree = "<group>"; };
+		83787F1B253D9F1000A93A45 /* QRCodeGuideLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGuideLineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				8346D869253B4236004FEA59 /* Info.plist */,
 				8346D863253B4236004FEA59 /* Preview Content */,
 				8346D870253B4265004FEA59 /* QRCodeScannerExampleView.swift */,
+				83787F1B253D9F1000A93A45 /* QRCodeGuideLineView.swift */,
 				8346D874253B50D8004FEA59 /* MyWebView.swift */,
 				8346D877253B542E004FEA59 /* CodeScannerView.swift */,
 			);
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83787F1C253D9F1000A93A45 /* QRCodeGuideLineView.swift in Sources */,
 				8346D871253B4265004FEA59 /* QRCodeScannerExampleView.swift in Sources */,
 				8346D85C253B4232004FEA59 /* AppDelegate.swift in Sources */,
 				8346D875253B50D8004FEA59 /* MyWebView.swift in Sources */,

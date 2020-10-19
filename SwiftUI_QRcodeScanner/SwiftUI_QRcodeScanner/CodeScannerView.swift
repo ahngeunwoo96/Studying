@@ -57,26 +57,26 @@ public struct CodeScannerView: UIViewControllerRepresentable {
             label.translatesAutoresizingMaskIntoConstraints = false
             label.numberOfLines = 0
 
-            label.text = "You're running in the simulator, which means the camera isn't available. Tap anywhere to send back some simulated data."
+            label.text = "시뮬레이터가 아닌 실제기기로 돌려보시길 바랍니다."
             label.textAlignment = .center
-            let button = UIButton()
-            button.translatesAutoresizingMaskIntoConstraints = false
-            button.setTitle("Or tap here to select a custom image", for: .normal)
-            button.setTitleColor(UIColor.systemBlue, for: .normal)
-            button.setTitleColor(UIColor.gray, for: .highlighted)
-            button.addTarget(self, action: #selector(self.openGallery), for: .touchUpInside)
+//            let button = UIButton()
+//            button.translatesAutoresizingMaskIntoConstraints = false
+//            button.setTitle("Or tap here to select a custom image", for: .normal)
+//            button.setTitleColor(UIColor.systemBlue, for: .normal)
+//            button.setTitleColor(UIColor.gray, for: .highlighted)
+//            button.addTarget(self, action: #selector(self.openGallery), for: .touchUpInside)
 
             let stackView = UIStackView()
             stackView.translatesAutoresizingMaskIntoConstraints = false
             stackView.axis = .vertical
             stackView.spacing = 50
             stackView.addArrangedSubview(label)
-            stackView.addArrangedSubview(button)
+//            stackView.addArrangedSubview(button)
 
             view.addSubview(stackView)
 
             NSLayoutConstraint.activate([
-                button.heightAnchor.constraint(equalToConstant: 50),
+//                button.heightAnchor.constraint(equalToConstant: 50),
                 stackView.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
                 stackView.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor),
                 stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
