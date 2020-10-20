@@ -13,6 +13,8 @@ struct QRCodeGuideLineView : View {
             RoundedRectangle(cornerRadius : 20).stroke(style: StrokeStyle(lineWidth: 10, dash: [11]))
                 .frame(width: geometryProxy.size.width / 2, height : geometryProxy.size.height / 3)
                 .foregroundColor(Color.yellow)
+                .padding(.leading, 100)
+                .padding(.top, 200)
         }
     }
 }

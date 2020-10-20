@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8346D85C253B4232004FEA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D85B253B4232004FEA59 /* AppDelegate.swift */; };
-		8346D85E253B4232004FEA59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D85D253B4232004FEA59 /* SceneDelegate.swift */; };
-		8346D860253B4232004FEA59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D85F253B4232004FEA59 /* ContentView.swift */; };
-		8346D862253B4236004FEA59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8346D861253B4236004FEA59 /* Assets.xcassets */; };
-		8346D865253B4236004FEA59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8346D864253B4236004FEA59 /* Preview Assets.xcassets */; };
-		8346D868253B4236004FEA59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8346D866253B4236004FEA59 /* LaunchScreen.storyboard */; };
-		8346D871253B4265004FEA59 /* QRCodeScannerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D870253B4265004FEA59 /* QRCodeScannerExampleView.swift */; };
-		8346D875253B50D8004FEA59 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D874253B50D8004FEA59 /* MyWebView.swift */; };
-		8346D878253B542E004FEA59 /* CodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346D877253B542E004FEA59 /* CodeScannerView.swift */; };
-		83787F1C253D9F1000A93A45 /* QRCodeGuideLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83787F1B253D9F1000A93A45 /* QRCodeGuideLineView.swift */; };
+		8366D310253F10C700C01F90 /* MyRotateButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8366D30F253F10C700C01F90 /* MyRotateButtonStyle.swift */; };
+		8366D313253F123400C01F90 /* MySmallerButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8366D312253F123400C01F90 /* MySmallerButtonStyle.swift */; };
+		8366D316253F12EB00C01F90 /* MyBlurButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8366D315253F12EB00C01F90 /* MyBlurButtonStyle.swift */; };
+		836FB3EC253EEBF200DA2399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836FB3EB253EEBF200DA2399 /* AppDelegate.swift */; };
+		836FB3EE253EEBF200DA2399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836FB3ED253EEBF200DA2399 /* SceneDelegate.swift */; };
+		836FB3F0253EEBF200DA2399 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836FB3EF253EEBF200DA2399 /* ContentView.swift */; };
+		836FB3F2253EEBF600DA2399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836FB3F1253EEBF600DA2399 /* Assets.xcassets */; };
+		836FB3F5253EEBF600DA2399 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836FB3F4253EEBF600DA2399 /* Preview Assets.xcassets */; };
+		836FB3F8253EEBF600DA2399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836FB3F6253EEBF600DA2399 /* LaunchScreen.storyboard */; };
+		836FB401253EEC9E00DA2399 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836FB400253EEC9E00DA2399 /* MyButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8346D858253B4232004FEA59 /* SwiftUI_QRcodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_QRcodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8346D85B253B4232004FEA59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8346D85D253B4232004FEA59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8346D85F253B4232004FEA59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8346D861253B4236004FEA59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8346D864253B4236004FEA59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8346D867253B4236004FEA59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8346D869253B4236004FEA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8346D870253B4265004FEA59 /* QRCodeScannerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerExampleView.swift; sourceTree = "<group>"; };
-		8346D874253B50D8004FEA59 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
-		8346D877253B542E004FEA59 /* CodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScannerView.swift; sourceTree = "<group>"; };
-		83787F1B253D9F1000A93A45 /* QRCodeGuideLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGuideLineView.swift; sourceTree = "<group>"; };
+		8366D30F253F10C700C01F90 /* MyRotateButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRotateButtonStyle.swift; sourceTree = "<group>"; };
+		8366D312253F123400C01F90 /* MySmallerButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySmallerButtonStyle.swift; sourceTree = "<group>"; };
+		8366D315253F12EB00C01F90 /* MyBlurButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlurButtonStyle.swift; sourceTree = "<group>"; };
+		836FB3E8253EEBF200DA2399 /* SwfitUI_ButtonStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwfitUI_ButtonStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		836FB3EB253EEBF200DA2399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		836FB3ED253EEBF200DA2399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		836FB3EF253EEBF200DA2399 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		836FB3F1253EEBF600DA2399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		836FB3F4253EEBF600DA2399 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		836FB3F7253EEBF600DA2399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		836FB3F9253EEBF600DA2399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836FB400253EEC9E00DA2399 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8346D855253B4232004FEA59 /* Frameworks */ = {
+		836FB3E5253EEBF200DA2399 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,44 +45,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8346D84F253B4232004FEA59 = {
+		836FB3DF253EEBF200DA2399 = {
 			isa = PBXGroup;
 			children = (
-				8346D85A253B4232004FEA59 /* SwiftUI_QRcodeScanner */,
-				8346D859253B4232004FEA59 /* Products */,
+				836FB3EA253EEBF200DA2399 /* SwfitUI_ButtonStyle */,
+				836FB3E9253EEBF200DA2399 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8346D859253B4232004FEA59 /* Products */ = {
+		836FB3E9253EEBF200DA2399 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8346D858253B4232004FEA59 /* SwiftUI_QRcodeScanner.app */,
+				836FB3E8253EEBF200DA2399 /* SwfitUI_ButtonStyle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8346D85A253B4232004FEA59 /* SwiftUI_QRcodeScanner */ = {
+		836FB3EA253EEBF200DA2399 /* SwfitUI_ButtonStyle */ = {
 			isa = PBXGroup;
 			children = (
-				8346D85B253B4232004FEA59 /* AppDelegate.swift */,
-				8346D85D253B4232004FEA59 /* SceneDelegate.swift */,
-				8346D85F253B4232004FEA59 /* ContentView.swift */,
-				8346D861253B4236004FEA59 /* Assets.xcassets */,
-				8346D866253B4236004FEA59 /* LaunchScreen.storyboard */,
-				8346D869253B4236004FEA59 /* Info.plist */,
-				8346D863253B4236004FEA59 /* Preview Content */,
-				8346D870253B4265004FEA59 /* QRCodeScannerExampleView.swift */,
-				83787F1B253D9F1000A93A45 /* QRCodeGuideLineView.swift */,
-				8346D874253B50D8004FEA59 /* MyWebView.swift */,
-				8346D877253B542E004FEA59 /* CodeScannerView.swift */,
+				836FB3EB253EEBF200DA2399 /* AppDelegate.swift */,
+				836FB3ED253EEBF200DA2399 /* SceneDelegate.swift */,
+				836FB3EF253EEBF200DA2399 /* ContentView.swift */,
+				836FB400253EEC9E00DA2399 /* MyButtonStyle.swift */,
+				8366D30F253F10C700C01F90 /* MyRotateButtonStyle.swift */,
+				8366D312253F123400C01F90 /* MySmallerButtonStyle.swift */,
+				8366D315253F12EB00C01F90 /* MyBlurButtonStyle.swift */,
+				836FB3F1253EEBF600DA2399 /* Assets.xcassets */,
+				836FB3F6253EEBF600DA2399 /* LaunchScreen.storyboard */,
+				836FB3F9253EEBF600DA2399 /* Info.plist */,
+				836FB3F3253EEBF600DA2399 /* Preview Content */,
 			);
-			path = SwiftUI_QRcodeScanner;
+			path = SwfitUI_ButtonStyle;
 			sourceTree = "<group>";
 		};
-		8346D863253B4236004FEA59 /* Preview Content */ = {
+		836FB3F3253EEBF600DA2399 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8346D864253B4236004FEA59 /* Preview Assets.xcassets */,
+				836FB3F4253EEBF600DA2399 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -90,38 +90,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8346D857253B4232004FEA59 /* SwiftUI_QRcodeScanner */ = {
+		836FB3E7253EEBF200DA2399 /* SwfitUI_ButtonStyle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8346D86C253B4236004FEA59 /* Build configuration list for PBXNativeTarget "SwiftUI_QRcodeScanner" */;
+			buildConfigurationList = 836FB3FC253EEBF600DA2399 /* Build configuration list for PBXNativeTarget "SwfitUI_ButtonStyle" */;
 			buildPhases = (
-				8346D854253B4232004FEA59 /* Sources */,
-				8346D855253B4232004FEA59 /* Frameworks */,
-				8346D856253B4232004FEA59 /* Resources */,
+				836FB3E4253EEBF200DA2399 /* Sources */,
+				836FB3E5253EEBF200DA2399 /* Frameworks */,
+				836FB3E6253EEBF200DA2399 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUI_QRcodeScanner;
-			productName = SwiftUI_QRcodeScanner;
-			productReference = 8346D858253B4232004FEA59 /* SwiftUI_QRcodeScanner.app */;
+			name = SwfitUI_ButtonStyle;
+			productName = SwfitUI_ButtonStyle;
+			productReference = 836FB3E8253EEBF200DA2399 /* SwfitUI_ButtonStyle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8346D850253B4232004FEA59 /* Project object */ = {
+		836FB3E0253EEBF200DA2399 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					8346D857253B4232004FEA59 = {
+					836FB3E7253EEBF200DA2399 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 8346D853253B4232004FEA59 /* Build configuration list for PBXProject "SwiftUI_QRcodeScanner" */;
+			buildConfigurationList = 836FB3E3253EEBF200DA2399 /* Build configuration list for PBXProject "SwfitUI_ButtonStyle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,51 +129,51 @@
 				en,
 				Base,
 			);
-			mainGroup = 8346D84F253B4232004FEA59;
-			productRefGroup = 8346D859253B4232004FEA59 /* Products */;
+			mainGroup = 836FB3DF253EEBF200DA2399;
+			productRefGroup = 836FB3E9253EEBF200DA2399 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8346D857253B4232004FEA59 /* SwiftUI_QRcodeScanner */,
+				836FB3E7253EEBF200DA2399 /* SwfitUI_ButtonStyle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8346D856253B4232004FEA59 /* Resources */ = {
+		836FB3E6253EEBF200DA2399 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8346D868253B4236004FEA59 /* LaunchScreen.storyboard in Resources */,
-				8346D865253B4236004FEA59 /* Preview Assets.xcassets in Resources */,
-				8346D862253B4236004FEA59 /* Assets.xcassets in Resources */,
+				836FB3F8253EEBF600DA2399 /* LaunchScreen.storyboard in Resources */,
+				836FB3F5253EEBF600DA2399 /* Preview Assets.xcassets in Resources */,
+				836FB3F2253EEBF600DA2399 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8346D854253B4232004FEA59 /* Sources */ = {
+		836FB3E4253EEBF200DA2399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83787F1C253D9F1000A93A45 /* QRCodeGuideLineView.swift in Sources */,
-				8346D871253B4265004FEA59 /* QRCodeScannerExampleView.swift in Sources */,
-				8346D85C253B4232004FEA59 /* AppDelegate.swift in Sources */,
-				8346D875253B50D8004FEA59 /* MyWebView.swift in Sources */,
-				8346D85E253B4232004FEA59 /* SceneDelegate.swift in Sources */,
-				8346D878253B542E004FEA59 /* CodeScannerView.swift in Sources */,
-				8346D860253B4232004FEA59 /* ContentView.swift in Sources */,
+				8366D313253F123400C01F90 /* MySmallerButtonStyle.swift in Sources */,
+				836FB3EC253EEBF200DA2399 /* AppDelegate.swift in Sources */,
+				836FB401253EEC9E00DA2399 /* MyButtonStyle.swift in Sources */,
+				8366D316253F12EB00C01F90 /* MyBlurButtonStyle.swift in Sources */,
+				836FB3EE253EEBF200DA2399 /* SceneDelegate.swift in Sources */,
+				836FB3F0253EEBF200DA2399 /* ContentView.swift in Sources */,
+				8366D310253F10C700C01F90 /* MyRotateButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8346D866253B4236004FEA59 /* LaunchScreen.storyboard */ = {
+		836FB3F6253EEBF600DA2399 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8346D867253B4236004FEA59 /* Base */,
+				836FB3F7253EEBF600DA2399 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -181,7 +181,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8346D86A253B4236004FEA59 /* Debug */ = {
+		836FB3FA253EEBF600DA2399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		8346D86B253B4236004FEA59 /* Release */ = {
+		836FB3FB253EEBF600DA2399 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,44 +297,42 @@
 			};
 			name = Release;
 		};
-		8346D86D253B4236004FEA59 /* Debug */ = {
+		836FB3FD253EEBF600DA2399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_QRcodeScanner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwfitUI_ButtonStyle/Preview Content\"";
 				DEVELOPMENT_TEAM = NTPUGYHR4M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUI_QRcodeScanner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				INFOPLIST_FILE = SwfitUI_ButtonStyle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftUI-QRcodeScanner";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwfitUI-ButtonStyle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8346D86E253B4236004FEA59 /* Release */ = {
+		836FB3FE253EEBF600DA2399 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_QRcodeScanner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwfitUI_ButtonStyle/Preview Content\"";
 				DEVELOPMENT_TEAM = NTPUGYHR4M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUI_QRcodeScanner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				INFOPLIST_FILE = SwfitUI_ButtonStyle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftUI-QRcodeScanner";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwfitUI-ButtonStyle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,25 +342,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8346D853253B4232004FEA59 /* Build configuration list for PBXProject "SwiftUI_QRcodeScanner" */ = {
+		836FB3E3253EEBF200DA2399 /* Build configuration list for PBXProject "SwfitUI_ButtonStyle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8346D86A253B4236004FEA59 /* Debug */,
-				8346D86B253B4236004FEA59 /* Release */,
+				836FB3FA253EEBF600DA2399 /* Debug */,
+				836FB3FB253EEBF600DA2399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8346D86C253B4236004FEA59 /* Build configuration list for PBXNativeTarget "SwiftUI_QRcodeScanner" */ = {
+		836FB3FC253EEBF600DA2399 /* Build configuration list for PBXNativeTarget "SwfitUI_ButtonStyle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8346D86D253B4236004FEA59 /* Debug */,
-				8346D86E253B4236004FEA59 /* Release */,
+				836FB3FD253EEBF600DA2399 /* Debug */,
+				836FB3FE253EEBF600DA2399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8346D850253B4232004FEA59 /* Project object */;
+	rootObject = 836FB3E0253EEBF200DA2399 /* Project object */;
 }
