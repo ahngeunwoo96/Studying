@@ -7,35 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8366D310253F10C700C01F90 /* MyRotateButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8366D30F253F10C700C01F90 /* MyRotateButtonStyle.swift */; };
-		8366D313253F123400C01F90 /* MySmallerButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8366D312253F123400C01F90 /* MySmallerButtonStyle.swift */; };
-		8366D316253F12EB00C01F90 /* MyBlurButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8366D315253F12EB00C01F90 /* MyBlurButtonStyle.swift */; };
-		836FB3EC253EEBF200DA2399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836FB3EB253EEBF200DA2399 /* AppDelegate.swift */; };
-		836FB3EE253EEBF200DA2399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836FB3ED253EEBF200DA2399 /* SceneDelegate.swift */; };
-		836FB3F0253EEBF200DA2399 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836FB3EF253EEBF200DA2399 /* ContentView.swift */; };
-		836FB3F2253EEBF600DA2399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836FB3F1253EEBF600DA2399 /* Assets.xcassets */; };
-		836FB3F5253EEBF600DA2399 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836FB3F4253EEBF600DA2399 /* Preview Assets.xcassets */; };
-		836FB3F8253EEBF600DA2399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836FB3F6253EEBF600DA2399 /* LaunchScreen.storyboard */; };
-		836FB401253EEC9E00DA2399 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836FB400253EEC9E00DA2399 /* MyButtonStyle.swift */; };
+		835ED4A525400EA300A69AF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835ED4A425400EA300A69AF7 /* AppDelegate.swift */; };
+		835ED4A725400EA300A69AF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835ED4A625400EA300A69AF7 /* SceneDelegate.swift */; };
+		835ED4A925400EA300A69AF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835ED4A825400EA300A69AF7 /* ContentView.swift */; };
+		835ED4AB25400EA500A69AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835ED4AA25400EA500A69AF7 /* Assets.xcassets */; };
+		835ED4AE25400EA500A69AF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835ED4AD25400EA500A69AF7 /* Preview Assets.xcassets */; };
+		835ED4B125400EA500A69AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835ED4AF25400EA500A69AF7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8366D30F253F10C700C01F90 /* MyRotateButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRotateButtonStyle.swift; sourceTree = "<group>"; };
-		8366D312253F123400C01F90 /* MySmallerButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySmallerButtonStyle.swift; sourceTree = "<group>"; };
-		8366D315253F12EB00C01F90 /* MyBlurButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlurButtonStyle.swift; sourceTree = "<group>"; };
-		836FB3E8253EEBF200DA2399 /* SwfitUI_ButtonStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwfitUI_ButtonStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		836FB3EB253EEBF200DA2399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		836FB3ED253EEBF200DA2399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		836FB3EF253EEBF200DA2399 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		836FB3F1253EEBF600DA2399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		836FB3F4253EEBF600DA2399 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		836FB3F7253EEBF600DA2399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		836FB3F9253EEBF600DA2399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		836FB400253EEC9E00DA2399 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
+		835ED4A125400EA300A69AF7 /* SwiftUI_TextInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_TextInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		835ED4A425400EA300A69AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		835ED4A625400EA300A69AF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		835ED4A825400EA300A69AF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		835ED4AA25400EA500A69AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		835ED4AD25400EA500A69AF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		835ED4B025400EA500A69AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		835ED4B225400EA500A69AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		836FB3E5253EEBF200DA2399 /* Frameworks */ = {
+		835ED49E25400EA300A69AF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,52 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		835ED49725400E8900A69AF7 /* New Group */ = {
+		835ED49825400EA300A69AF7 = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		836FB3DF253EEBF200DA2399 = {
-			isa = PBXGroup;
-			children = (
-				836FB3EA253EEBF200DA2399 /* SwfitUI_ButtonStyle */,
-				836FB3E9253EEBF200DA2399 /* Products */,
+				835ED4A325400EA300A69AF7 /* SwiftUI_TextInput */,
+				835ED4A225400EA300A69AF7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		836FB3E9253EEBF200DA2399 /* Products */ = {
+		835ED4A225400EA300A69AF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				836FB3E8253EEBF200DA2399 /* SwfitUI_ButtonStyle.app */,
+				835ED4A125400EA300A69AF7 /* SwiftUI_TextInput.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		836FB3EA253EEBF200DA2399 /* SwfitUI_ButtonStyle */ = {
+		835ED4A325400EA300A69AF7 /* SwiftUI_TextInput */ = {
 			isa = PBXGroup;
 			children = (
-				836FB3EB253EEBF200DA2399 /* AppDelegate.swift */,
-				836FB3ED253EEBF200DA2399 /* SceneDelegate.swift */,
-				836FB3EF253EEBF200DA2399 /* ContentView.swift */,
-				835ED49725400E8900A69AF7 /* New Group */,
-				836FB400253EEC9E00DA2399 /* MyButtonStyle.swift */,
-				8366D30F253F10C700C01F90 /* MyRotateButtonStyle.swift */,
-				8366D312253F123400C01F90 /* MySmallerButtonStyle.swift */,
-				8366D315253F12EB00C01F90 /* MyBlurButtonStyle.swift */,
-				836FB3F1253EEBF600DA2399 /* Assets.xcassets */,
-				836FB3F6253EEBF600DA2399 /* LaunchScreen.storyboard */,
-				836FB3F9253EEBF600DA2399 /* Info.plist */,
-				836FB3F3253EEBF600DA2399 /* Preview Content */,
+				835ED4A425400EA300A69AF7 /* AppDelegate.swift */,
+				835ED4A625400EA300A69AF7 /* SceneDelegate.swift */,
+				835ED4A825400EA300A69AF7 /* ContentView.swift */,
+				835ED4AA25400EA500A69AF7 /* Assets.xcassets */,
+				835ED4AF25400EA500A69AF7 /* LaunchScreen.storyboard */,
+				835ED4B225400EA500A69AF7 /* Info.plist */,
+				835ED4AC25400EA500A69AF7 /* Preview Content */,
 			);
-			path = SwfitUI_ButtonStyle;
+			path = SwiftUI_TextInput;
 			sourceTree = "<group>";
 		};
-		836FB3F3253EEBF600DA2399 /* Preview Content */ = {
+		835ED4AC25400EA500A69AF7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				836FB3F4253EEBF600DA2399 /* Preview Assets.xcassets */,
+				835ED4AD25400EA500A69AF7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -98,38 +78,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		836FB3E7253EEBF200DA2399 /* SwfitUI_ButtonStyle */ = {
+		835ED4A025400EA300A69AF7 /* SwiftUI_TextInput */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 836FB3FC253EEBF600DA2399 /* Build configuration list for PBXNativeTarget "SwfitUI_ButtonStyle" */;
+			buildConfigurationList = 835ED4B525400EA500A69AF7 /* Build configuration list for PBXNativeTarget "SwiftUI_TextInput" */;
 			buildPhases = (
-				836FB3E4253EEBF200DA2399 /* Sources */,
-				836FB3E5253EEBF200DA2399 /* Frameworks */,
-				836FB3E6253EEBF200DA2399 /* Resources */,
+				835ED49D25400EA300A69AF7 /* Sources */,
+				835ED49E25400EA300A69AF7 /* Frameworks */,
+				835ED49F25400EA300A69AF7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwfitUI_ButtonStyle;
-			productName = SwfitUI_ButtonStyle;
-			productReference = 836FB3E8253EEBF200DA2399 /* SwfitUI_ButtonStyle.app */;
+			name = SwiftUI_TextInput;
+			productName = SwiftUI_TextInput;
+			productReference = 835ED4A125400EA300A69AF7 /* SwiftUI_TextInput.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		836FB3E0253EEBF200DA2399 /* Project object */ = {
+		835ED49925400EA300A69AF7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					836FB3E7253EEBF200DA2399 = {
+					835ED4A025400EA300A69AF7 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 836FB3E3253EEBF200DA2399 /* Build configuration list for PBXProject "SwfitUI_ButtonStyle" */;
+			buildConfigurationList = 835ED49C25400EA300A69AF7 /* Build configuration list for PBXProject "SwiftUI_TextInput" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,51 +117,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 836FB3DF253EEBF200DA2399;
-			productRefGroup = 836FB3E9253EEBF200DA2399 /* Products */;
+			mainGroup = 835ED49825400EA300A69AF7;
+			productRefGroup = 835ED4A225400EA300A69AF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				836FB3E7253EEBF200DA2399 /* SwfitUI_ButtonStyle */,
+				835ED4A025400EA300A69AF7 /* SwiftUI_TextInput */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		836FB3E6253EEBF200DA2399 /* Resources */ = {
+		835ED49F25400EA300A69AF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836FB3F8253EEBF600DA2399 /* LaunchScreen.storyboard in Resources */,
-				836FB3F5253EEBF600DA2399 /* Preview Assets.xcassets in Resources */,
-				836FB3F2253EEBF600DA2399 /* Assets.xcassets in Resources */,
+				835ED4B125400EA500A69AF7 /* LaunchScreen.storyboard in Resources */,
+				835ED4AE25400EA500A69AF7 /* Preview Assets.xcassets in Resources */,
+				835ED4AB25400EA500A69AF7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		836FB3E4253EEBF200DA2399 /* Sources */ = {
+		835ED49D25400EA300A69AF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8366D313253F123400C01F90 /* MySmallerButtonStyle.swift in Sources */,
-				836FB3EC253EEBF200DA2399 /* AppDelegate.swift in Sources */,
-				836FB401253EEC9E00DA2399 /* MyButtonStyle.swift in Sources */,
-				8366D316253F12EB00C01F90 /* MyBlurButtonStyle.swift in Sources */,
-				836FB3EE253EEBF200DA2399 /* SceneDelegate.swift in Sources */,
-				836FB3F0253EEBF200DA2399 /* ContentView.swift in Sources */,
-				8366D310253F10C700C01F90 /* MyRotateButtonStyle.swift in Sources */,
+				835ED4A525400EA300A69AF7 /* AppDelegate.swift in Sources */,
+				835ED4A725400EA300A69AF7 /* SceneDelegate.swift in Sources */,
+				835ED4A925400EA300A69AF7 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		836FB3F6253EEBF600DA2399 /* LaunchScreen.storyboard */ = {
+		835ED4AF25400EA500A69AF7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				836FB3F7253EEBF600DA2399 /* Base */,
+				835ED4B025400EA500A69AF7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -189,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		836FB3FA253EEBF600DA2399 /* Debug */ = {
+		835ED4B325400EA500A69AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		836FB3FB253EEBF600DA2399 /* Release */ = {
+		835ED4B425400EA500A69AF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,42 +281,42 @@
 			};
 			name = Release;
 		};
-		836FB3FD253EEBF600DA2399 /* Debug */ = {
+		835ED4B625400EA500A69AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwfitUI_ButtonStyle/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_TextInput/Preview Content\"";
 				DEVELOPMENT_TEAM = NTPUGYHR4M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwfitUI_ButtonStyle/Info.plist;
+				INFOPLIST_FILE = SwiftUI_TextInput/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SwfitUI-ButtonStyle";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftUI-TextInput";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		836FB3FE253EEBF600DA2399 /* Release */ = {
+		835ED4B725400EA500A69AF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwfitUI_ButtonStyle/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_TextInput/Preview Content\"";
 				DEVELOPMENT_TEAM = NTPUGYHR4M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwfitUI_ButtonStyle/Info.plist;
+				INFOPLIST_FILE = SwiftUI_TextInput/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SwfitUI-ButtonStyle";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftUI-TextInput";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,25 +326,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		836FB3E3253EEBF200DA2399 /* Build configuration list for PBXProject "SwfitUI_ButtonStyle" */ = {
+		835ED49C25400EA300A69AF7 /* Build configuration list for PBXProject "SwiftUI_TextInput" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				836FB3FA253EEBF600DA2399 /* Debug */,
-				836FB3FB253EEBF600DA2399 /* Release */,
+				835ED4B325400EA500A69AF7 /* Debug */,
+				835ED4B425400EA500A69AF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		836FB3FC253EEBF600DA2399 /* Build configuration list for PBXNativeTarget "SwfitUI_ButtonStyle" */ = {
+		835ED4B525400EA500A69AF7 /* Build configuration list for PBXNativeTarget "SwiftUI_TextInput" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				836FB3FD253EEBF600DA2399 /* Debug */,
-				836FB3FE253EEBF600DA2399 /* Release */,
+				835ED4B625400EA500A69AF7 /* Debug */,
+				835ED4B725400EA500A69AF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 836FB3E0253EEBF200DA2399 /* Project object */;
+	rootObject = 835ED49925400EA300A69AF7 /* Project object */;
 }
