@@ -126,6 +126,43 @@ struct ContentView: View {
         .cornerRadius(25)
         .padding(20)
     }
+    
+    func createPopup() -> some View {
+        VStack(spacing : 10) {
+            Image("안건우_증명사진")
+                .resizable()
+                .aspectRatio(contentMode: ContentMode.fit)
+                .frame(width : 100, height : 100)
+            
+            Text("ios개발자 안건우")
+                .foregroundColor(Color.white)
+                .fontWeight(.bold)
+            
+            Text("한국에서 ios개발자로 살아남기\n취업에 도움되는 개발을 조금씩 해보자\n다음번에는 안드로이드 개발도 공부!!")
+                .font(.system(size : 12))
+                .foregroundColor(Color(red: 0.9, green: 0.8, blue : 0.9))
+                .multilineTextAlignment(.center)
+            
+            Spacer().frame(height : 10)
+            
+            Button(action: {
+                self.shouldShowPopup = false
+            }, label: {
+                Text("닫기")
+                    .font(.system(size : 14))
+                    .foregroundColor(Color.black)
+                    .fontWeight(.bold)
+            })
+            .frame(width : 100, height: 40)
+            .background(Color.white)
+            .cornerRadius(20.0)
+        }
+        .padding(.horizontal, 10)
+        .frame(width : 200, height: 300)
+        .background(Color(hexcode: "8227b0"))
+        .cornerRadius(10)
+        .shadow(color: Color(.sRGBLinear, white : 0, opacity : 0.13), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+    }
 
     var body: some View {
         ZStack {
@@ -181,9 +218,9 @@ struct ContentView: View {
                     Text("팝업")
                         .font(.system(size: 20))
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(Color(hexcode : "B227b0"))
+                        .foregroundColor(Color.white)
                         .padding()
-                        .background(Color.red)
+                        .background(Color(hexcode: "8227b0"))
                         .cornerRadius(30)
                 })
                 Spacer()
@@ -209,6 +246,10 @@ struct ContentView: View {
         .popup(isPresented : $shouldShowTopToastMessage, type : .toast, position : .top, animation : .easeInOut, autohideIn : 2, closeOnTap : true, closeOnTapOutside : true, view : {
             //팝업이 되는 뷰
             self.createTopToastMessage()
+            })
+        .popup(isPresented : $shouldShowPopup, type : .default, position : .top, animation : .easeInOut, autohideIn : 2, closeOnTap : true, closeOnTapOutside : false, view : {
+            //팝업이 되는 뷰
+            self.createPopup()
             })
     }
 }
