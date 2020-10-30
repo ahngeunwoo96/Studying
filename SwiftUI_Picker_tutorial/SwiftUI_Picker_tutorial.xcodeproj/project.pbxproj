@@ -13,6 +13,7 @@
 		837A2C372547D7B200603D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837A2C362547D7B200603D23 /* Assets.xcassets */; };
 		837A2C3A2547D7B200603D23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837A2C392547D7B200603D23 /* Preview Assets.xcassets */; };
 		837A2C3D2547D7B200603D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837A2C3B2547D7B200603D23 /* LaunchScreen.storyboard */; };
+		837A2C4625487DBB00603D23 /* MyfilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837A2C4525487DBB00603D23 /* MyfilteredList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		837A2C392547D7B200603D23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		837A2C3C2547D7B200603D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		837A2C3E2547D7B200603D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837A2C4525487DBB00603D23 /* MyfilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyfilteredList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				837A2C302547D7AF00603D23 /* AppDelegate.swift */,
 				837A2C322547D7AF00603D23 /* SceneDelegate.swift */,
 				837A2C342547D7AF00603D23 /* ContentView.swift */,
+				837A2C4525487DBB00603D23 /* MyfilteredList.swift */,
 				837A2C362547D7B200603D23 /* Assets.xcassets */,
 				837A2C3B2547D7B200603D23 /* LaunchScreen.storyboard */,
 				837A2C3E2547D7B200603D23 /* Info.plist */,
@@ -148,6 +151,7 @@
 				837A2C312547D7AF00603D23 /* AppDelegate.swift in Sources */,
 				837A2C332547D7AF00603D23 /* SceneDelegate.swift in Sources */,
 				837A2C352547D7AF00603D23 /* ContentView.swift in Sources */,
+				837A2C4625487DBB00603D23 /* MyfilteredList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
