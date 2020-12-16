@@ -16,4 +16,6 @@
 - 딥링크
 - 메뉴
 
+### 참고한 강의
+- [Youtube : 개발하는 정대리](https://www.youtube.com/channel/UCutO2H_AVmWHbzvE92rpxjA)
 
